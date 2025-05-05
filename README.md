@@ -16,8 +16,14 @@ It offers to the developers an unparalleled flexibility, security, performance, 
 
 Project Lacia is a movement towards the future of programming, empowering developers to build groundbreaking applications with unprecedented ease.
 
+
 ## Requirements
 
 - Latest LLVM stable toolchain installed and added to PATH
 - CMake 4
+
+
+### For macOS
+
 - MacOSX 15.4.1
+- Xcode 16.3
