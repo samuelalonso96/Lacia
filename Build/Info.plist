@@ -1,0 +1,73 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>CFBundleIconFile</key>
+<string>Icon.icns</string>
+<key>CFBundleIconName</key>
+<string>Icon.icns</string>
+<key>CFBundleDevelopmentRegion</key>
+<string>en_US</string>
+<key>CFBundleInfoDictionaryVersion</key>
+<string>6.0</string>
+<key>DTCompiler</key>
+<string>com.apple.compilers.llvm.clang.1_0</string>
+<key>CFBundlePackageType</key>
+<string>APPL</string>
+<key>LSApplicationCategoryType</key>
+<string>public.app-category.games</string>
+<key>NSHighResolutionCapable</key>
+<true/>
+<key>CSResourceFilesMapped</key>
+<false/>
+<key>LSMinimumSystemVersion</key>
+<string>15.4.1</string>
+<key>NSHumanReadableCopyright</key>
+<string>Copyright 2025 samuelalonso96</string>
+<key>CFBundleIdentifier</key>
+<string>com.salonso.lacia</string>
+<key>CFBundleExecutable</key>
+<string>Lacia</string>
+<key>CFBundleName</key>
+<string>Lacia</string>
+<key>CFBundleDisplayName</key>
+<string>Lacia</string>
+<key>CFBundleSpokenName</key>
+<string>Lacia</string>
+<key>CFBundleVersion</key>
+<string>0.0.1</string>
+<key>CFBundleShortVersionString</key>
+<string>0.0.1</string>
+<key>CFBundleLongVersionString</key>
+<string>0.0.1</string>
+<key>NSDesktopFolderUsageDescription</key>
+<string>Lacia requests access to the desktop folder</string>
+<key>NSDocumentsFolderUsageDescription</key>
+<string>Lacia requests access to the documents folder</string>
+<key>NSDownloadsFolderUsageDescription</key>
+<string>Lacia requests access to the downloads folder</string>
+<key>NSNetworkVolumesUsageDescription</key>
+<string>Lacia requests access to the network volumes</string>
+<key>NSRemovableVolumesUsageDescription</key>
+<string>Lacia requests access to the removable volumes</string>
+<key>NSFileProviderDomainUsageDescription</key>
+<string>Lacia requests access to the file provider</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Lacia requests access to the photo library</string>
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>Lacia requests access to the Bluetooth</string>
+<key>NSCameraUsageDescription</key>
+<string>Lacia requests access to the camera</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>Lacia requests access to the microphone</string>
+<key>NSMotionUsageDescription</key>
+<string>Lacia requests access to the motion</string>
+<key>NSLocalNetworkUsageDescription</key>
+<string>Lacia requests access to the local network</string>
+<key>NSLocationUsageDescription</key>
+<string>Lacia requests access to the location</string>
+<key>com.apple.security.device.camera</key>
+<true/>
+<key>com.apple.security.device.audio-input</key>
+<true/>
+</dict>
+</plist>
