@@ -19,6 +19,8 @@ Project Lacia is a movement towards the future of programming, empowering develo
 
 ## Requirements
 
+Project Lacia assumes a LP64 or LLP64 data model.
+
 - Latest LLVM stable toolchain installed and added to PATH
 - CMake 4
 
@@ -27,3 +29,8 @@ Project Lacia is a movement towards the future of programming, empowering develo
 
 - MacOSX 15.4.1
 - Xcode 16.3
+
+
+## Documentation
+
+You can find the documentation under the ``Documentation`` folder. A mardown renderer such as Obsidian is recommended.
