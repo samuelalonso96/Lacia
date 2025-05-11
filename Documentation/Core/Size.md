@@ -1,9 +1,11 @@
 ```css
-07/05/2025 - 0.0.1 - Core/Size.hpp
+11/05/2025 - 0.0.1 - Core/Size.hpp
 ```
 
 
-## Lacia::Size
+## Aliases
+
+### Lacia::Size
 
 ```cpp
 namespace Lacia
@@ -15,7 +17,7 @@ namespace Lacia
 A 64-bits unsigned integer type capable of representing the size of any object.
 
 
-### Example
+#### Example
 
 ```cpp
 #include <print>
