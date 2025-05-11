@@ -17,7 +17,7 @@ namespace Lacia
 A 64-bits unsigned integer type capable of representing the size of any object.
 
 
-#### Example
+## Example
 
 ```cpp
 #include <print>
