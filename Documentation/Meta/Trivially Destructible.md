@@ -1,5 +1,5 @@
 ```css
-11/05/2025 - 0.0.1 - Meta/TriviallyDestructible.hpp
+13/05/2025 - 0.0.1 - Meta/Trivially Destructible.hpp
 ```
 
 
@@ -14,7 +14,7 @@ namespace Lacia::Meta
 }
 ```
 
-Satisfied when ``T`` has an implicit or explicit default non-deleted & non-virtual destructor and all of its base classes and sub-objects are also trivially destructible.
+Satisfied if ``T`` isn't a void, function, nor unbounded array type, and is a reference type or an object type with an implicit or explicit default non-deleted & non-virtual trivial destructor and all of its base classes and sub-objects are also trivially destructible.
 
 
 ## Example
@@ -23,10 +23,15 @@ Satisfied when ``T`` has an implicit or explicit default non-deleted & non-virtu
 #include <print>
 #include <Meta/TriviallyDestructible.hpp>
 
-struct meow{};
+template<Lacia::Meta::TriviallyDestructible T> auto print_and_destroy(T& object) noexcept -> void
+{
+	std::println("{}", object);
+	object.~T();
+}
 
 int main()
 {
-	std::println("Is meow trivially destructible? {}", Lacia::Meta::TriviallyDestructible<meow>);
+	int x = 42;
+	print_and_destroy(x);
 }
 ```
