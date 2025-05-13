@@ -16,7 +16,7 @@ namespace Lacia::Meta
 }
 ```
 
-Satisfied if ``T`` isn't a void, function, nor unbounded array type, and is a reference type or an object type with an implicit or explicit default non-deleted & non-virtual trivial destructor and all of its base classes and sub-objects are also trivially destructible.
+Satisfied if ``T`` isn't a void, function, nor unbounded array type, and is a reference type or an object type with an implicit or explicit default non-deleted & non-virtual default/trivial destructor and all of its base classes and sub-objects are also trivially destructible.
 
 
 ## Example
