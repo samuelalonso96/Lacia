@@ -27,7 +27,7 @@ Project Lacia assumes a LP64 or LLP64 data model.
 
 ### For macOS
 
-- MacOSX 15.4.1
+- MacOSX 15.5
 - Xcode 16.3
 
 
