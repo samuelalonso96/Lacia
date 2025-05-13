@@ -2,6 +2,8 @@
 13/05/2025 - 0.0.1 - Meta/Trivially Destructible.hpp
 ```
 
+Depends on: ``Meta/Void.hpp``, ``Meta/Function.hpp``, ``Meta/Reference.hpp``, ``Meta/Remove Extents.hpp``, ``Meta/Unbounded Array.hpp``.
+
 
 ## Concepts
 
