@@ -1,4 +1,4 @@
-# Project Lacia
+![Lacia's logo](./Logo.png)
 
 Project Lacia is a C++26 forward-thinking general-purpose engine designed to redefine modern software engineering.
 
